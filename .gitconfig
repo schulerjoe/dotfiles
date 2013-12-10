@@ -1,0 +1,4 @@
+[user]
+	email = josefschuler@gmail.com
+[core]
+	editor = /usr/bin/vim
