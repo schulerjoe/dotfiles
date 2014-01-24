@@ -1,4 +1,6 @@
 [user]
-	email = josefschuler@gmail.com
+        name = Joe Schuler
+        email = josefschuler@gmail.com
 [core]
+        excludesfile = /Users/Joe/.gitignore_global
 	editor = /usr/bin/vim
