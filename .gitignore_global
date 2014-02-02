@@ -1,2 +1,13 @@
+# GENERAL
 *~
 .DS_Store
+
+# ANDROID DEVELOPMENT
+*/platforms/android/local.properties
+*/platforms/android/bin
+*/platforms/android/gen
+*/platforms/android/assets/www
+*/platforms/android/res/xml/config.xml
+
+*/platforms/android/CordovaLib/bin
+*/platforms/android/CordovaLib/gen
