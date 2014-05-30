@@ -1,5 +1,10 @@
 #
 ## ALIAS'es
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
 alias ll='ls -al'
 alias v='vim '
 
