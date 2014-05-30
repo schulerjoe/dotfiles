@@ -1,6 +1,7 @@
 #
 ## ALIAS'es
 alias ll='ls -al'
+alias v='vim '
 
 #
 ## GIT related things
