@@ -9,3 +9,7 @@ alias ga='git add .'
 alias gc='git commit -a'
 alias gp='git push origin master'
 alias gd='git diff'
+
+#
+## Brew
+echo export PATH='/usr/local/sbin:$PATH'
