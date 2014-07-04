@@ -8,6 +8,7 @@ alias ......='cd ../../../../..'
 alias ll='ls -al'
 alias v='vim '
 
+alias rmr='rm -R'
 #
 ## GIT related things
 alias gs='git status'
