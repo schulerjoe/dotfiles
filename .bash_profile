@@ -32,3 +32,6 @@ alias tmux='tmux -2'
 alias tmuxls='tmux list-sessions'
 alias tmuxa='tmux attach'
 
+# brew related
+#
+export PATH=/usr/local/sbin:$PATH
