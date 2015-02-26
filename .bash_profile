@@ -23,10 +23,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-# display directories in purple due to readability
-LS_COLORS='di=0;35';
-export LS_COLORS
-
 # quicker navigation
 alias ..='cd ..'
 alias ...='cd ../..'
