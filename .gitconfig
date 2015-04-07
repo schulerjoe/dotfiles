@@ -1,8 +1,18 @@
+# ~/.gitconfig
+#
+# Author:   Joe Schuler <josefschuler at gmail dot com>
+# Source:   https://github.com/schulerjoe/dotfiles
+#
+# Sections:
+#           -> user
+#           -> core
+#           -> github
+
 [user]
         name = Joe Schuler
         email = josefschuler@gmail.com
 [core]
-        excludesfile = /Users/Joe/.gitignore_global
+        excludesfile = $HOME/.gitignore_global
 	editor = /usr/bin/vim
 [github]
 	user = schulerjoe
