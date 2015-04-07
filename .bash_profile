@@ -1,13 +1,18 @@
 # ~/.bash_profile
 #
 # GENERAL
-# create new files with user=rw,group=r,object=r
-umask 022
-
 # source .bashrc
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
+
+# show message when logging in
+echo
+echo ".bash_profile loaded..."
+echo
+
+# create new files with user=rw,group=r,object=r
+umask 022
 
 # enable color support of ls
 if [ -x /usr/bin/dircolors ]; then
