@@ -1,6 +1,18 @@
 # ~/.bash_profile
 #
+# Author:   Joe Schuler <josefschuler at gmail dot com>
+# Source:   https://github.com/schulerjoe/dotfiles
+#
+# Sections:
+#           -> GENERAL
+#           -> GIT
+#           -> SVN
+#           -> TMXU
+#           -> BREW
+
+#######################################################
 # GENERAL
+#######################################################
 # source .bashrc
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
@@ -39,26 +51,32 @@ alias rmr='rm -Rf'
 
 alias h="history"
 
+
+#######################################################
 # GIT
-#
+#######################################################
 alias gs='git status'
 alias ga='git add .'
 alias gc='git commit -a'
 alias gp='git push origin master'
 alias gd='git diff'
 
+
+#######################################################
 # SVN
-#
+#######################################################
 alias svs="/usr/bin/svn status -u"
 alias svu="/usr/bin/svn update"
 alias svc="/usr/bin/svn commit"
 
+#######################################################
 # TMUX
-#
+#######################################################
 alias tmux='tmux -2'
 alias tmuxls='tmux list-sessions'
 alias tmuxa='tmux attach'
 
+#######################################################
 # BREW
-#
+#######################################################
 export PATH=/usr/local/sbin:$PATH
