@@ -77,6 +77,7 @@ alias tmuxls='tmux list-sessions'
 alias tmuxa='tmux attach'
 
 #######################################################
-# BREW
+# Environmental Variables
 #######################################################
 export PATH=/usr/local/sbin:$PATH
+export EDITOR=vim

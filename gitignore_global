@@ -4,23 +4,100 @@
 # Source:   https://github.com/schulerjoe/dotfiles
 #
 # Sections:
-#           -> GENERAL
-#           -> ANDROID DEVELOPMENT
+#           -> Chef
+#           -> Ruby
+#           -> Emacs
+#           -> SublimeText
+#           -> TextMate
+#           -> Vim
+#           -> OS X
+#           -> Windows
+#           -> Git
+#           -> Subersion
+#           -> Mercurial
 
 #######################################################
-# GENERAL
+# Chef
+#######################################################
+.chef/*.pem
+.chef/encrypted_data_bag_secret
+
+#######################################################
+# Ruby
+#######################################################
+.rake_test_cache
+.rvmrc
+.rbenv-version
+
+#######################################################
+# Emacs
 #######################################################
 *~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+.org-id-locations
+*_archive
+
+#######################################################
+# SublimeText
+#######################################################
+*.sublime-workspace
+
+#######################################################
+# TextMate
+#######################################################
+*.tmproj
+*.tmproject
+tmtags
+
+#######################################################
+# Vim
+#######################################################
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+#######################################################
+# OS X
+#######################################################
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
 
 #######################################################
-# ANDROID DEVELOPMENT
+# Windows
 #######################################################
-*/platforms/android/local.properties
-*/platforms/android/bin
-*/platforms/android/gen
-*/platforms/android/assets/www
-*/platforms/android/res/xml/config.xml
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-*/platforms/android/CordovaLib/bin
-*/platforms/android/CordovaLib/gen
+#######################################################
+# Git
+#######################################################
+.git/
+.gitignore
+.gitmodules
+
+#######################################################
+# Subversion
+#######################################################
+.svn/
+
+#######################################################
+# Mercurial
+#######################################################
+.hg/*
+*/.hg/*
+.hgignore
