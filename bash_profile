@@ -18,10 +18,27 @@ if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
 
+# source .bash_aliases
+if [ -f ~/.bash_aliases ]; then
+  . ~/.bash_aliases
+fi
+
 # show message when logging in
 echo
 echo ".bash_profile loaded..."
 echo
+
+# set a fancy prompt (non-color, unless we know we "want" color)
+case "$TERM" in
+  xterm*|*-256color) color_prompt=yes;;
+esac
+
+if [ "$color_prompt" = yes ]; then
+  PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+  PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt
 
 # create new files with user=rw,group=r,object=r
 umask 022
